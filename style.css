@@ -1,0 +1,76 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Outfit", sans-serif;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    margin:100px;
+    padding:10px;
+    width: 600px;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 30px;
+    border-radius: 40px;
+}
+.parent .img1{ 
+    width: 100%;
+    border-radius: 20px;
+}
+.ch1{
+    background-color:hsl(330, 100%, 98%) ;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 50px;
+}
+.child{
+    line-height: 30px;
+}
+.child p{
+color:hsl(30, 10%, 34%) ;
+font-size: 15px;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+}
+li{
+    list-style-position: inside;
+    line-height: 30px;
+    list-style-position: unset ;
+    color: hsl(30, 10%, 34%);
+    
+}
+h2{
+color:hsl(14, 45%, 36%) ;
+}
+.ingr{
+    padding: 30px;
+}
+.inst{
+    padding-left: 20px;
+}
+.container .parent .nutr p{
+color:hsl(30, 10%, 34%) ;
+}
+table{
+color:hsl(30, 10%, 34%) ;
+width: 100%;
+line-height: 30px;
+padding-left: 30px;
+}
+table .td2{
+    color:hsl(14, 45%, 36%) ;
+    font-weight: 700;
+    font-family:Outfit;
+}
